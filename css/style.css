@@ -1,0 +1,557 @@
+﻿@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+/* global reset */
+html, body, body div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, font, img, s, small, strike, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, button, form, fieldset, article, aside, footer, header, nav, section, input, textarea {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: none;
+    list-style: none;
+}
+/* font adjusting hack */
+html * {
+	max-height: 1000000px;
+}
+/* common */
+html {
+    height: 100%;
+}
+body {
+    font: normal 400 16px / 26px 'Roboto';
+    letter-spacing: 0.05em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 46px;
+    text-align: center;
+}
+/* header */
+header {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 100%;
+    flex: none;
+}
+header .container {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+header a {
+    display: block;
+    height: 48px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.logo {
+    width: 46px;
+    background-image: url('../img/logo.png');
+}
+.user {
+    width: 34px;
+    background-image: url('../img/user.png');
+}
+
+main {
+    position: absolute;
+    top: 189px;
+    width: 100%;
+}
+
+main section {
+    margin-top: 64px;
+}
+
+/* first page */
+
+main section:first-child {
+    background: linear-gradient(0deg, #EBF3FB 0%, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background-position: 0%;
+}
+
+#top-container {
+    display: flex;
+}
+
+.box1 {
+    top: 4px;
+}
+
+.textheader1 {
+    width: 510px;
+    height: 148px;
+    font: normal 300 64px 'Roboto';
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+.textheader2 {
+    width: 425px;
+    height: 82px;
+    font: normal 400 16px 'Roboto';
+    line-height: 26px;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-top: 32px;
+}
+
+main button {
+    width: 220px;
+    height: 56px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    font: normal 400 16px 'Roboto';
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 71px;
+}
+
+.bodytext {
+    font: normal 300 36px 'Roboto';
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.mainbodyblocks {
+    display: flex; 
+    margin-top: 64px;
+}
+
+.bodyblock1 {
+    width: 359px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-right: 32px;
+}
+
+.bodyblock1 .logobb1 {
+    display: flex;
+    justify-content: center;
+}
+
+.logobb1 {
+    margin-top: 32px;
+}
+
+.textbb1inside h4 {
+    font: normal 400 20px 'Roboto';
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-left: 32px;
+    margin-top: 51px;
+}
+
+.bb1insidetext {
+    font: normal 400 16px 'Roboto';
+    line-height: 26px;       
+    letter-spacing: 0.05em;    
+    color: #1F3F68;    
+    opacity: 0.6; 
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 14px;
+}
+
+.learn {
+    width: 125px;
+    height: 27px;
+    font: normal 400 14px 'Roboto';
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    background-color: transparent;
+    margin-top: 28px;
+    box-shadow: none;
+    border-radius: none;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.learn img {
+    width: 24px;
+    height: 21px;
+}
+
+.container .textproject {
+    display: block;
+    align-items: center;
+    margin-left: 195px;
+    margin-top: 32px;
+}
+
+.textproject {
+    width: 750px;
+    height: 52px;
+    font: normal 400 16px 'Roboto';
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    
+}
+
+.picbig {
+    margin-top: 64px;
+    width: 1140px;
+    height: 480px;
+    border-radius: 10px;
+    background-image: url("../img/Page_main_room.png");
+    background-size: 100%;
+}
+
+.picbigtext {
+    padding-top: 64px;
+    margin-left: 678px;
+    width: 398px;
+    height: 112px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.piclittle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.piclittleiphones {
+    margin-top: 32px;
+    width: 554px;
+    height: 417px;
+    border-radius: 10px;
+    background-image: url("../img/Page_main_Iphones.png");
+    background-size: 100%;
+}
+
+.piclittlecars {
+    margin-top: 32px;
+    width: 554px;
+    height: 417px;
+    border-radius: 10px;
+    background-image: url("../img/Page_main_cars.png");
+    background-size: 100%;
+}
+
+.piclettletext {
+    height: 46px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+/* second page */
+
+#maincontacts {
+    top: 129px;
+}
+
+#firstseccontacts {
+    flex: none;
+    background: transparent;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    margin-top: 47px;
+}
+
+#firstseccontacts .container {
+    width: 1366px;
+    height: 250px;
+    background-image: url("../img/ContactsBackground.png");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.titlecontacts {
+    width: 250px;
+    height: 74px;
+    margin-left: 567px;
+    margin-top: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.texttitlecontacts {
+    width: 780px;
+    height: 60px;
+    margin-left: 293px;
+    margin-top: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#adresscont {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contactsblock {
+    width: 301px;
+    height: 668px;
+    margin-left: 99px;
+    margin-top: 135px;
+}
+
+.messageblock {
+    width: 540px;
+    height: 800px;
+    margin-left: 101px;
+    margin-top: 61px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.adress {
+    margin-top: 56px;
+    width: 299px;
+    height: 107px;
+}
+
+h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+.contactsblock p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 16px;
+    text-align: left center;
+    display: flex;
+    align-items: center;
+}
+
+.adress p {
+    margin-bottom: 40px;
+}
+
+legend {
+    padding-top: 52px;
+    margin-left: 56px;
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+}
+
+label {
+    padding-left: 56px;
+    margin-bottom: 32px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+fieldset input {
+    margin-right: 56px;
+    margin-left: 56px;
+    width: 428px;
+    height: 72px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+}
+
+fieldset input:last-child {
+    height: 144px;
+}
+
+fieldset input::placeholder {
+    padding-left: 46px;
+}
+
+fieldset p {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+#contsubmit {
+    margin-top: 72px;
+    margin-left: 56px;
+    margin-bottom: 60px;
+    width: 428px;
+    height: 72px;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+#map {
+    margin-top: 92px;
+    margin-left: 100px;
+    flex: none;
+    left: 0;
+    width: 100%;
+}
+
+/* footer */
+footer {
+    flex: none;
+    background: #316099;
+    color: #fff;
+    position: absolute;
+    top: 2716px;
+    left: 0;
+    width: 100%;
+}
+
+#footercontacts {
+    top: 2000px;
+}
+
+footer section + section {
+    border-top: 2px solid rgba(255,255,255,0.4);
+}
+footer .container {
+    padding: 64px 0;
+}
+footer h3 {
+    margin: 27px 0;
+    font-weight: 400;
+    text-align: left;
+    width: 336px;
+}
+footer p {
+    margin: 32px 0;
+    opacity: 0.6;
+    width: 480px;
+}
+footer ol {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+footer li {
+    flex: 0 0 316px;
+    padding-left: 42px;
+    position: relative;
+}
+footer li::before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: 'T.';
+}
+footer li:first-child::before {
+    content: 'A.';
+}
+footer li:last-child::before {
+    content: 'E.';
+}
+footer button {
+    float: right;
+    margin-top: -160px;
+    width: 340px;
+    height: 56px;
+    color: #fff;
+    background: #5a98d0;
+    font: normal 400 16px / 26px 'Roboto';
+    letter-spacing: 0.04em;
+}
+.copy {
+    margin: 64px 0 0;
+    opacity: 0.4;
+}
+
+
+
+
+
+

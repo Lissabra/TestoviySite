@@ -1,0 +1,193 @@
+﻿@media screen and (max-width: 1200px) {
+    .container {
+        width: 704px;
+    }
+    header {
+        top: 47px;
+    }
+
+    /*page1*/
+
+    main section:first-child {
+        background: linear-gradient(0deg, #DFEDF8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    }
+
+    #piclogopagemain {
+        width: 336px;
+        height: 292px;
+        margin-top:180px;
+        margin-left: -160px;
+        margin-bottom: 107px;
+    }
+
+    .mainbodyblocks {
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 64px;
+        margin-bottom: 127px;
+    }
+
+    .bodyblock1 {
+        width: 335px;
+        height: 448px;
+        margin-bottom: 32px;
+    }
+
+   .textbb1inside h4 {
+        margin-top: 48px;
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+
+    .bb1insidetext {
+        margin-top: 15px;
+        margin-left: 29px;
+        margin-right: 54px;
+    }
+
+    .learn {
+        margin-top: 5px;
+    }
+
+    .container .textproject {
+        margin-left: 124px;
+    }
+
+    .textproject {
+        width: 520px;
+        height: 78px;
+    }
+
+    
+
+    .picbig {
+        width: 704px;
+        height: 296px;
+    }
+
+    .picbigtext {
+        margin-left: 242px;
+    }
+
+    .piclittleiphones {
+        width: 336px;
+        height: 253px;
+    }
+
+    .piclittlecars {
+        width: 336px;
+        height: 253px;
+    }
+
+    .piclettletext {
+        margin-top: 19px;
+        margin-left: 19px;
+    }
+
+    #maincontacts {
+        top: 99px;
+    }
+
+    #firstseccontacts .container {
+        background-image: url("../img/ContactsBackground.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: -350px;
+        left: 0;
+        width: 1366px;
+    }
+
+    .titlecontacts {
+        width: 520px;
+        height: 74px;
+        margin-left: 473px;
+        margin-top: 56px;
+    }
+
+    .texttitlecontacts {
+        width: 520px;
+        height: 60px;
+        margin-left: 473px;
+    }
+
+    #adresscont {
+        flex-direction: column;  
+    }
+
+    .contactsblock {
+        margin-left: 234px;
+        margin-top: 64px;
+    }
+
+    #map .container {
+        background-image: url('../img/map.png');
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 64px;
+        margin-left: -99px;
+        margin-bottom: 64px;
+        left: 0;
+        width: 100%;
+        height: 392px;
+    }
+
+    #map img {
+        display: none;
+    }
+
+
+
+    /*footer*/
+
+
+    #footermain {
+        top: 3463px;
+    }
+
+    #footercontacts {
+        top: 2600px;
+    }
+
+
+    footer .container {
+        padding: 64px 92px;
+        box-sizing: border-box;
+    }
+    footer h3 {
+        margin: -16px 0 32px;
+    }
+    footer p {
+        width: 336px;
+        margin: 0;
+    }
+    footer button {
+        margin-top: -115px;
+        width: 134px;
+        height: 32px;
+    }
+    /*
+    footer ol {
+        flex-direction: column;
+        height: 130px;
+    }
+    footer li {
+        flex-basis: 26px;
+    }
+    */
+    footer ol {
+        display: block;
+    }
+    footer li {
+        padding-left: 59px;
+    }
+    footer li + li {
+        margin-top: 26px;
+    }
+    footer li br {
+        display: none;
+    }
+}
